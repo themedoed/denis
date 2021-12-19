@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #2c2b2b;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.home{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/bg.jpg);
+}
+
+.header{
+    background-image: url(../images/home-bgjpg.jpg);
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    /* background-color: #d199ff; */
+}
+
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-img{
+    height: 130px;
+    border-radius: 10%;
+    border: 2px #2c2b2b solid;
+    transition: all .5s;
+}
+
+.logo-img:hover{
+    border: 2px #ffd35f solid;
+}
+
+.menu__list{
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+}
+
+.menu-link{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #2c2b2b;
+    transition: all .5s;
+}
+
+.menu-link:hover{
+    color: #ffd35f;
+}
+
+.home__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.home-title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 90px;
+    transition: all .5s;
+}
+
+.home-title:hover{
+    color: #fff;
+}
+
+.sex{
+    background-image: url(../images/987090_screenshots_20181224202244_1.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
